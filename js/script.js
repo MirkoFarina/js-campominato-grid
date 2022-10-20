@@ -44,7 +44,6 @@ function createSquare(nSquare){
   container.append(square);
   square.idNumberSquare = nSquare + 1;
   square.addEventListener('click', nameSquare)
-  console.log(square);
 }
 
 
